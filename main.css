@@ -1,10 +1,57 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	padding: 15px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END: reset CSS */
 html {
 	color: #676a6a;
 	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 20px;
-}
-body {
-	background-color: #ddd;
 }
 nav {
 	float: right;
@@ -22,8 +69,13 @@ a.cta {
 a.cta:hover {
 	color: #EFACED;
 }
+h1 a {
+	color: #000;
+	font-size: 40px;
+	font-weight: bold;
+}
 h1 a:hover {
-	color: #EFACED;
+	color: #5A5A5A;
 	text-decoration: none;
 }
 h3 {
@@ -36,7 +88,7 @@ h3 {
 	padding: 20px 10px;
 }
 .box {
-	background-color: #fff;
+	background-color: #F4F7FC;
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
 	float: left;
 	padding: 20px;
@@ -105,16 +157,20 @@ h3 {
 /* about */
 .profile-pic {
 	float: left;
-/*	position: relative;*/
-/*	left: 0;	*/
-/*	width: 100px;*/
 	height: 300px;
 	padding-right: 30px;
 }
 .logo {
-/*	position: relative;*/
-margin-left: 260px;
+	margin-left: 260px;
 	vertical-align: top;
-/*	margin-right: 30px;*/
 	width: 30px;
+}
+
+footer {
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+}
+.copyright { 
+	text-align: center;
 }
