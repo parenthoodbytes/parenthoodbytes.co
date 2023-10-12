@@ -1,0 +1,120 @@
+html {
+	color: #676a6a;
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+}
+body {
+	background-color: #ddd;
+}
+nav {
+	float: right;
+}
+a {
+	color: #676a6a;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a.cta {
+	color: #6F8FAF;
+}
+a.cta:hover {
+	color: #EFACED;
+}
+h1 a:hover {
+	color: #EFACED;
+	text-decoration: none;
+}
+h3 {
+	background: #fff;
+	color: #000;
+	font-size: 100px;
+	font-weight: bold;
+	margin: 20px 0;
+	text-align: center;
+	padding: 20px 10px;
+}
+.box {
+	background-color: #fff;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+	float: left;
+	padding: 20px;
+/*	width: 500px;*/
+}
+.box.col {
+	margin: 10px 12px;
+	width: 375px;
+}
+.inner {
+	margin: 30px;
+}
+
+/* top nav */
+.nav { 
+	position: relative; 
+}
+
+.nav-links {
+  overflow: hidden;
+  background-color: #333;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  width: 300px;
+}
+
+.nav-links a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.show-nav-item {
+	display: block;
+}
+.hide-nav-item {
+	display: none;
+}
+
+.hamburger-container {
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+/* about */
+.profile-pic {
+	float: left;
+/*	position: relative;*/
+/*	left: 0;	*/
+/*	width: 100px;*/
+	height: 300px;
+	padding-right: 30px;
+}
+.logo {
+/*	position: relative;*/
+margin-left: 260px;
+	vertical-align: top;
+/*	margin-right: 30px;*/
+	width: 30px;
+}
