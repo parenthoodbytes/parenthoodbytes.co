@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	padding: 15px;
 }
 ol, ul {
 	list-style: none;
@@ -48,11 +47,17 @@ table {
 	border-spacing: 0;
 }
 /* END: reset CSS */
+
 html {
 	color: #676a6a;
 	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 20px;
 }
+body {
+	line-height: 1.25;
+	padding: 15px;
+}	
+
 nav {
 	float: right;
 }
