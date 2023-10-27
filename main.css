@@ -92,6 +92,9 @@ h3 {
 	text-align: center;
 	padding: 20px 10px;
 }
+h4 {
+	font-weight: bold;
+}
 .box {
 	background-color: #F4F7FC;
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
@@ -104,7 +107,26 @@ h3 {
 .inner {
 	margin: 30px;
 }
-
+.podcast-cta {
+	clear: both;
+	text-align: center;
+}
+.podcast-player {
+	border-radius: 13px;
+	display: inline-block; 
+	height: 83px;
+	overflow: hidden;  
+	width: 250px; 
+}
+.icon {
+	border-radius: 13px; 
+	height: 60px;
+	padding: 20px 0;
+	width: auto; 
+}
+#embedPlayer {
+	margin: 0 auto;text-align: center;
+}
 /* top nav */
 .nav { 
 	position: relative; 
