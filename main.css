@@ -127,6 +127,7 @@ h4 {
 #embedPlayer {
 	margin: 0 auto;text-align: center;
 }
+
 /* top nav */
 .nav { 
 	position: relative; 
@@ -186,9 +187,11 @@ h4 {
 	padding: 20px;
 }
 .logo {
-	margin-left: 260px;
-	vertical-align: top;
-	width: 30px;
+	display: flex;
+}
+/* horizontal nav */
+.horz-nav-links {
+	;
 }
 
 footer {
