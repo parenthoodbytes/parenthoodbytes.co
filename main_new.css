@@ -307,6 +307,9 @@ footer {
 	.episode-page .main-container-text {
 		padding-left: 0;
 	}
+	.content {
+		text-align: left;
+	}
 }
 
 /* iPhone [portrait + landscape] */
@@ -361,6 +364,7 @@ footer {
 		max-width: 500px;
 		height: auto;
 	}
-	.selector-02 { margin: 10px; }
-	.selector-03 { margin: 10px; }
+	.content {
+		text-align: left;
+	}
 }
