@@ -288,9 +288,9 @@ footer {
 		}
 
 	img.col {
-		max-width: 220px;
-		margin-right: 10px;
 		height: auto;
+		margin-right: 10px;
+		max-width: 220px;
 	}
 	.main-container-inner {
 		text-align: center;
@@ -380,9 +380,9 @@ footer {
 		padding-left: 0;
 	}
 	img.col {
+		height: auto;
 		margin-left: 20%;
 		max-width: 500px;
-		height: auto;
 	}
 	.content {
 		text-align: left;
