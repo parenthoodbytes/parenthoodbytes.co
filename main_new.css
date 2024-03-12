@@ -262,3 +262,105 @@ footer {
 	text-align: center;
 }
 /* END: footer */
+
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1400px) {
+	.logo {
+		float: none;
+		text-align: center;
+		width: auto;
+	}
+	header {
+		height: 300px;
+	}
+	.horz-nav-links {
+		font-size: 1em;
+		position: relative;
+		width: auto;
+	}
+		.horz-nav-links a {
+			display: block;
+			position: relative;
+			width: auto;
+		}
+
+	img.col {
+		max-width: 220px;
+		margin-right: 10px;
+		height: auto;
+	}
+	.main-container-inner {
+		text-align: center;
+	}
+	.main-container-inner .thumb-container {
+		float: none;
+	}
+	.main-container-inner .thumb-container .thumb {
+		width: 100%;
+	}
+	.main-container .btn {
+		margin: 10px 0;
+	}
+	.index-page .main-container-text {
+		margin-top: 0;
+	}
+	.episode-page .main-container-text {
+		padding-left: 0;
+	}
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 667px) {
+	
+	.logo {
+		float: none;
+		text-align: center;
+		width: auto;
+	}
+	header {
+		height: 250px;
+	}
+	.horz-nav-links {
+		font-size: 1em;
+		position: relative;
+		width: auto;
+	}
+		.horz-nav-links a {
+			display: block;
+			position: relative;
+			width: auto;
+		}
+	.btn {
+		font-size: 16px;
+		width: 100%;
+	}
+	.col { 
+		margin-right: 0;
+
+	}
+	.main-container-inner {
+		text-align: center;
+	}
+	.main-container-inner .thumb-container {
+		float: none;
+	}
+	.main-container-inner .thumb-container .thumb {
+		width: 100%;
+	}
+	.main-container .btn {
+		margin: 10px 0;
+	}
+	.index-page .main-container-text {
+		margin-top: 0;
+	}
+	.episode-page .main-container-text {
+		padding-left: 0;
+	}
+	img.col {
+		margin-left: 20%;
+		max-width: 500px;
+		height: auto;
+	}
+	.selector-02 { margin: 10px; }
+	.selector-03 { margin: 10px; }
+}
