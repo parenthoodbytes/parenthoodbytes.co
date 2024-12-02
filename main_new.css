@@ -115,8 +115,9 @@ h4 {
 	}
 .thumb {
 	border: 1px solid #ddd;
+	height: 250px;
 	margin-bottom: 20px;
-	width: 250px;
+	width: 100%;
 }
 
 .main-container {
@@ -145,6 +146,7 @@ h4 {
 	}
 	.main-container-inner .thumb-container .thumb {
 		display: block;
+		height: 100%;
 		width: 400px;
 	}
 	.main-container-text {
@@ -243,7 +245,9 @@ header {
 .episode-page .btn {
 	margin: 30px 10px 0 0px;
 }
-
+.embed-player {
+	display: block;
+}
 /* END: episode page */
 /* START: footer */
 footer {
@@ -315,9 +319,7 @@ footer {
 	.col-episodes {
 		width: 100%;
 	}
-	.col-episodes .thumb {
-		width: 100%;
-	}
+	
 	.col-episodes .col {
 		font-size: 1em;
 		height: 100%;
@@ -385,9 +387,7 @@ footer {
 	.content {
 		text-align: left;
 	}
-	.col-episodes .thumb {
-		width: 100%;
-	}
+	
 	.col-episodes .col {
 		font-size: 1.5em;
 		height: 100%;
